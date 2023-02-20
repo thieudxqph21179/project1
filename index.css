@@ -1,0 +1,1085 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+    }
+    /* Header */
+    
+    header {
+        width: 100%;
+        background-color: black;
+        height: 90px;
+    }
+    
+    .menu {
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+    
+    .menu-top {
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+    }
+    
+    .menu-top .logo {
+        padding: 20px 0px 0px 50px;
+    }
+    
+    .ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .ul li {
+        padding: 20px 0px 0px 20px;
+    }
+    
+    .ul li a {
+        padding-left: 30px;
+        font-family: 'Francois One', sans-serif;
+        font-size: 13px;
+    }
+    
+    .ul li a:hover {
+        color: red;
+    }
+    
+    .ul li i {
+        color: white;
+        font-size: 20px;
+    }
+    
+    .tuvan {
+        margin-left: 14px;
+        margin-top: -10px;
+    }
+    
+    .dt {
+        margin-left: 20px;
+        margin-top: -10px;
+    }
+    
+    .gio {
+        margin-left: 21px;
+        margin-top: -10px;
+    }
+    
+    .white {
+        color: white;
+    }
+    
+    .red {
+        color: red;
+    }
+    
+    form input {
+        margin-top: 25px;
+        margin-left: -40px;
+        height: 35px;
+        width: 200px;
+        border-radius: 5px;
+        border: 2px solid white;
+        background-color: black;
+        padding-left: 10px;
+        color: white;
+    }
+    
+     ::placeholder {
+        color: white;
+    }
+    
+    form i {
+        color: red;
+        margin-left: -30px;
+    }
+    /* Nav */
+    
+    nav {
+        width: 100%;
+        background-color: #FFD700;
+        height: 50px;
+    }
+    
+    .nav {
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+    
+    .nav ul {
+        display: flex;
+        line-height: 50px;
+        padding-left: 30px;
+    }
+    
+    .nav ul li {
+        padding: 0px 20px;
+    }
+    
+    .nav ul li a {
+        color: black;
+        font-size: 17px;
+        font-family: 'Lalezar', cursive;
+    }
+    
+    .nav ul li:hover {
+        border-bottom: 3px solid red;
+        z-index: 1;
+    }
+    /* Menu-icon */
+    
+    section {
+        width: 100%;
+        position: relative;
+    }
+    
+    section img {
+        width: 100%;
+    }
+    
+    .bar i {
+        font-size: 30px;
+        color: white;
+        display: none;
+        padding-top: 10px;
+    }
+    
+    .wraper {
+        width: 100%;
+        background-color: #FFD700;
+        height: 100px;
+        margin-top: -10px;
+    }
+    
+    .menu-icon {
+        display: flex;
+        max-width: 1920px;
+        margin: 0 auto;
+        justify-content: space-around;
+        position: relative;
+        top: 10px;
+    }
+    
+    .menu-icon h1 {
+        font-family: 'Francois One', sans-serif;
+        font-size: 17px;
+    }
+    
+    .icon i {
+        position: absolute;
+        font-size: 35px;
+        color: red;
+        margin-top: -50px;
+        margin-left: 170px;
+    }
+    
+    .icon1 i {
+        position: absolute;
+        margin-left: 180px;
+        font-size: 30px;
+        color: red;
+        margin-top: -50px;
+    }
+    /* Main */
+    
+    main {
+        width: 100%;
+        margin-top: 35px;
+    }
+    
+    .content {
+        max-width: 1920px;
+        margin: 0 auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    /* SP bán chạy */
+    
+    .sp-banchay {
+        display: grid;
+        margin-top: 30px;
+        grid-template-columns: 35% 30% 35%;
+    }
+    
+    .sp-banchay .hr-right {
+        height: 1px;
+    }
+    
+    .sp-banchay .hr-left {
+        height: 1px;
+    }
+    
+    .sp-banchay h1 {
+        margin: -14px 0px 30px 90px;
+        font-family: 'Lalezar', cursive;
+        font-size: 20px;
+    }
+    /* Điện thoại */
+    
+    .dienthoai-banchay {
+        display: grid;
+        grid-template-columns: 18% 18% 18% 18% 18%;
+        justify-content: space-around;
+        row-gap: 5%;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .sp1 {
+        position: relative;
+        transition: 0.6s;
+        text-align: center;
+    }
+    
+    .content img {
+        width: 100%;
+        height: 240px;
+        border-radius: 5px;
+    }
+    
+    .sp1 button {
+        width: 35px;
+        height: 35px;
+        border-radius: 20px;
+        background-color: red;
+        color: white;
+        border: none;
+        position: absolute;
+        top: 10px;
+        left: 15px;
+    }
+    
+    .sp1:hover {
+        transform: scale(1.1);
+    }
+    
+    .sp1 p {
+        font-family: 'Calistoga', cursive;
+    }
+    
+    .gia {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .giam-gia {
+        margin-left: 15px;
+        font-weight: bold;
+        color: red;
+    }
+    
+    .gia-goc {
+        text-decoration: line-through;
+        color: gray;
+    }
+    /* SP bán chạy 2 */
+    
+    .sp-banchay2 {
+        display: grid;
+        margin-top: 80px;
+        grid-template-columns: 35% 30% 35%;
+    }
+    
+    .sp-banchay2 .hr-right2 {
+        height: 1px;
+    }
+    
+    .sp-banchay2 .hr-left2 {
+        height: 1px;
+    }
+    
+    .sp-banchay2 h1 {
+        margin: -14px 0px 30px 90px;
+        font-family: 'Lalezar', cursive;
+        font-size: 20px;
+    }
+    /* Dịch vụ */
+    
+    .dichvu-cuachungtoi {
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        width: 90%;
+        justify-content: space-between;
+        margin: 0 auto;
+        row-gap: 3%;
+    }
+    
+    .sp2 {
+        background-color: #FFD700;
+        height: 410px;
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+    
+    .sp2 img {
+        width: 95%;
+        height: 250px;
+        margin-top: 2%;
+    }
+    
+    .sp2 .button-top {
+        width: 35px;
+        height: 35px;
+        border-radius: 20px;
+        background-color: red;
+        color: white;
+        border: none;
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
+    
+    .sp2 h1 {
+        font-family: 'Prompt', sans-serif;
+        font-size: 20px;
+        text-align: left;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .sp2 p {
+        text-align: left;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .sp2 .button-bottom {
+        width: 100px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: red;
+        color: white;
+        border: none;
+        position: absolute;
+        transition: 0.6s;
+        top: 86%;
+        left: 5%;
+    }
+    
+    .sp2 .button-bottom:hover {
+        transform: scale(1.1);
+    }
+    /* SP bán chạy 3 */
+    
+    .sp-banchay3 {
+        display: grid;
+        margin-top: 80px;
+        grid-template-columns: 35% 30% 35%;
+    }
+    
+    .sp-banchay3 .hr-right3 {
+        height: 1px;
+    }
+    
+    .sp-banchay3 .hr-left3 {
+        height: 1px;
+    }
+    
+    .sp-banchay3 h1 {
+        margin: -14px 0px 30px 90px;
+        font-family: 'Lalezar', cursive;
+        font-size: 20px;
+    }
+    /* Tin tức */
+    
+    .tintuc-kienthuc {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+        row-gap: 5%;
+        height: 650px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .anh-top {
+        display: grid;
+        grid-template-columns: 49% 49%;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .anh1 {
+        position: relative;
+        width: 100%;
+    }
+    
+    .anh-top .anh1 img {
+        width: 100%;
+        height: 330px;
+        filter: brightness(80%);
+        transition: all 0.3s;
+    }
+    
+    .anh-top .anh1 img:hover {
+        filter: brightness(50%);
+    }
+    
+    .anh-top .anh1 button {
+        width: 35px;
+        height: 35px;
+        border-radius: 20px;
+        background-color: red;
+        color: white;
+        border: none;
+        position: absolute;
+        top: 30px;
+        left: 25px;
+    }
+    
+    .anh-top .anh1 p {
+        color: white;
+        position: absolute;
+        top: 78%;
+        font-size: 25px;
+        left: 5%;
+    }
+    
+    .anh-bottom {
+        display: grid;
+        grid-template-columns: 32% 32% 32%;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .anh2 {
+        position: relative;
+        width: 100%;
+    }
+    
+    .anh-bottom .anh2 img {
+        width: 100%;
+        height: 250px;
+        filter: brightness(80%);
+        transition: all 0.3s;
+    }
+    
+    .anh-bottom .anh2 img:hover {
+        filter: brightness(40%);
+    }
+    
+    .anh-bottom .anh2 button {
+        width: 35px;
+        height: 35px;
+        border-radius: 20px;
+        background-color: red;
+        color: white;
+        border: none;
+        position: absolute;
+        top: 3%;
+        left: 5%;
+    }
+    
+    .anh-bottom .anh2 p {
+        color: white;
+        position: absolute;
+        top: 55%;
+        left: 5%;
+        font-size: 20px;
+    }
+    /* Footer */
+    
+    footer {
+        width: 100%;
+        background-color: #FFD700;
+        margin-top: 40px;
+    }
+    
+    .lien-he {
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20%;
+        max-width: 1920px;
+        margin: 0 auto;
+        justify-content: space-around;
+    }
+    
+    .ve-chungtoi {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    
+    .ve-chungtoi h2 {
+        margin-top: 20px;
+        font-family: 'Calistoga', cursive;
+        font-size: 20px;
+    }
+    
+    .ve-chungtoi .noidung {
+        margin-top: -60px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .noidung a {
+        border-bottom: 1px solid gray;
+        padding-top: 10px;
+        cursor: pointer;
+    }
+    
+    .noidung a i {
+        margin-right: 20px;
+    }
+    
+    .icon-footer i {
+        font-size: 35px;
+        margin-left: 5px;
+    }
+    
+    .fb {
+        color: blue;
+    }
+    
+    .phone {
+        color: green;
+    }
+    
+    .youtube {
+        color: red;
+    }
+    
+    .dichvu-giaidap {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .dichvu-giaidap h2 {
+        margin-top: 20px;
+        font-family: 'Calistoga', cursive;
+        font-size: 20px;
+    }
+    
+    .dichvu-giaidap .noidung2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: -86px;
+    }
+    
+    .noidung2 a {
+        border-bottom: 1px solid gray;
+        padding-top: 28px;
+        cursor: pointer;
+    }
+    
+    .noidung2 a i {
+        margin-right: 20px;
+    }
+    
+    .thongtin-lienhe {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .thongtin-lienhe h2 {
+        margin-top: 20px;
+        font-family: 'Calistoga', cursive;
+        font-size: 20px;
+    }
+    
+    .thongtin-lienhe {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .thongtin-lienhe p {
+        margin-top: 40px;
+    }
+    
+    .mang-xh {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .mang-xh h2 {
+        margin-top: 20px;
+        font-family: 'Calistoga', cursive;
+        font-size: 20px;
+    }
+    
+    .mang-xh {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .mang-xh p {
+        margin-top: 23px;
+    }
+    
+    .mang-xh a {
+        color: blue;
+    }
+    
+    .mang-xh img {
+        width: 100%;
+    }
+    /* Menu - Responsive */
+    
+    .nav-responsive {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 300px;
+        background-color: rgba(0, 0, 0, 0.842);
+        height: 610px;
+        z-index: 10;
+        transform: translateX(-100%);
+        transition: 0.6s;
+    }
+    
+    .nav-overlay {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    
+    .nav-overlay {
+        display: none;
+    }
+    
+    .nav-responsive ul li {
+        display: block;
+        padding: 40px 0px 0px 15px;
+    }
+    
+    .nav-responsive ul {
+        margin-top: 40px;
+    }
+    
+    .nav-responsive ul li:hover {
+        border-bottom: 3px solid coral;
+        background-color: rgba(255, 0, 0, 0.788);
+        padding: 20px 12px;
+    }
+    
+    .nav-responsive ul li a {
+        color: white;
+        font-family: 'Francois One', sans-serif;
+    }
+    
+    .nav-input:checked~.nav-overlay {
+        display: block;
+    }
+    
+    .nav-input:checked~.nav-responsive {
+        transform: translateX(0%);
+        transition: 0.6s;
+    }
+    
+    .nav-input {
+        display: none;
+    }
+    
+    .times {
+        font-size: 35px;
+        color: white;
+        position: absolute;
+        right: 10px;
+    }
+    
+    .search {
+        position: absolute;
+        left: 10px;
+        top: 5px;
+    }
+    
+    .search input {
+        height: 30px;
+        padding-left: 10px;
+        border: none;
+    }
+    
+    .search input::placeholder {
+        color: black;
+    }
+    
+    .search button {
+        width: 40px;
+        height: 30px;
+        background-color: rgb(66, 199, 48);
+        position: absolute;
+        border: none;
+    }
+    
+    .search button i {
+        color: rgb(160, 14, 14);
+        font-size: 20px;
+    }
+    /* Responsive Mobile */
+    
+    @media screen and (max-width:768px) {
+        /* header */
+        .menu-top .ul {
+            display: none;
+        }
+        .menu-top .logo {
+            margin-left: 20px;
+        }
+        /* nav */
+        nav {
+            display: none;
+        }
+        form {
+            display: none;
+        }
+        .bar i {
+            position: absolute;
+            display: block;
+            top: 3%;
+            left: 2%;
+            margin-left: 13px;
+        }
+        /* Menu-icon */
+        .menu-icon {
+            display: grid;
+            grid-template-columns: 40% 40%;
+        }
+        .wraper {
+            height: 170px;
+        }
+        .icon2 {
+            margin-top: 20px;
+        }
+        .fa-ambulance {
+            left: 4%;
+        }
+        .fa-mobile-alt {
+            right: 4%;
+        }
+        .fa-calendar-alt {
+            right: 2%;
+        }
+        /* SP bán chạy*/
+        .sp-banchay .hr-right {
+            display: none;
+        }
+        .sp-banchay .hr-left {
+            display: none;
+        }
+        .sp-banchay {
+            display: flex;
+            justify-content: center;
+            margin-right: 17%;
+        }
+        .sp-banchay h1 {
+            text-align: center;
+            font-family: 'Lalezar', cursive;
+            font-size: 20px;
+        }
+        /* Điện thoại bán chạy */
+        .dienthoai-banchay {
+            display: grid;
+            grid-template-columns: 160px 160px;
+            column-gap: 50px;
+            row-gap: 50px;
+        }
+        .sp1 {
+            text-align: center;
+        }
+        .sp1 p {
+            font-size: 12px;
+        }
+        .content img {
+            width: 150px;
+            height: 200px;
+            margin: 0 auto;
+        }
+        /* SP bán chạy 2 */
+        .sp-banchay2 .hr-right2 {
+            display: none;
+        }
+        .sp-banchay2 .hr-left2 {
+            display: none;
+        }
+        .sp-banchay2 {
+            display: flex;
+            justify-content: center;
+            margin-right: 17%;
+        }
+        .sp-banchay2 h1 {
+            text-align: center;
+            font-family: 'Lalezar', cursive;
+            font-size: 20px;
+        }
+        /* Dịch vụ */
+        .dichvu-cuachungtoi {
+            display: grid;
+            grid-template-columns: 70%;
+            justify-content: center;
+            width: 100%;
+            height: 2500px;
+        }
+        .sp2 {
+            height: 350px;
+            width: 100%;
+            text-align: center;
+        }
+        .sp2 img {
+            width: 90%;
+            object-fit: cover;
+            margin-top: 10px;
+        }
+        /* SP bán chạy 3 */
+        .sp-banchay3 .hr-right3 {
+            display: none;
+        }
+        .sp-banchay3 .hr-left3 {
+            display: none;
+        }
+        .sp-banchay3 {
+            display: flex;
+            justify-content: center;
+        }
+        .sp-banchay3 h1 {
+            font-family: 'Lalezar', cursive;
+            font-size: 20px;
+            margin-right: 17%;
+        }
+        /* Tin tức kiến thức */
+        .tintuc-kienthuc {
+            display: grid;
+            width: 100%;
+            grid-template-columns: 70%;
+            position: relative;
+            height: 1500px;
+            justify-content: center;
+        }
+        .tintuc-kienthuc .anh-top {
+            display: grid;
+            grid-template-columns: 100%;
+            height: 550px;
+        }
+        .tintuc-kienthuc .anh-top #anh1 {
+            margin-top: 30px;
+        }
+        .tintuc-kienthuc .anh-top img {
+            width: 100%;
+            height: 250px;
+        }
+        .tintuc-kienthuc .anh-top p {
+            font-size: 20px;
+            margin-top: -45px;
+        }
+        .tintuc-kienthuc #anh1 {
+            margin-top: -200px;
+        }
+        .tintuc-kienthuc .anh-bottom {
+            display: grid;
+            grid-template-columns: 70%;
+            position: absolute;
+            top: 40%;
+            justify-content: center;
+            height: 880px;
+        }
+        .tintuc-kienthuc .anh-bottom p {
+            margin-top: -10px;
+        }
+        /* Footer */
+        footer {
+            margin-top: -30px;
+            height: 1480px;
+        }
+        .lien-he {
+            display: grid;
+            grid-template-columns: 70%;
+        }
+        .ve-chungtoi {
+            width: 100%;
+            height: 400px;
+        }
+        .dichvu-giaidap {
+            width: 100%;
+            height: 400px;
+            margin-top: -50px;
+        }
+        .thongtin-lienhe {
+            width: 100%;
+            height: 400px;
+            margin-top: -50px;
+        }
+        .thongtin-lienhe p {
+            margin-top: 10px;
+        }
+        .mang-xh {
+            width: 100%;
+            height: 400px;
+            margin-top: -190px;
+        }
+        .mang-xh h2 {
+            margin-bottom: 30px;
+        }
+    }
+    /* Tablet */
+    
+    @media screen and (min-width:768px) and (max-width:992px) {
+        /* header */
+        .menu-top ul {
+            display: none;
+        }
+        .menu-top form {
+            text-align: center;
+        }
+        /* nav */
+        nav {
+            margin-bottom: 70px;
+            width: 100%;
+            background-color: #FFD700;
+            height: 120px;
+        }
+        .nav ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        /* Menu-icon */
+        section {
+            margin-top: -70px;
+        }
+        .menu-icon {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            margin-left: 40px;
+        }
+        .wraper {
+            height: 170px;
+        }
+        .icon2 {
+            margin-top: 20px;
+        }
+        /* SP Bán chạy */
+        .sp-banchay {
+            width: 100%;
+        }
+        .sp-banchay .hr-right {
+            height: 1px;
+            width: 100%;
+        }
+        .sp-banchay .hr-left {
+            height: 1px;
+            width: 100%;
+        }
+        .sp-banchay h1 {
+            font-family: 'Lalezar', cursive;
+            font-size: 15px;
+            margin-right: 20%;
+        }
+        /* điện thoại bán chạy */
+        .dienthoai-banchay {
+            display: grid;
+            grid-template-columns: 30% 30% 30%;
+            column-gap: 50px;
+            row-gap: 50px;
+        }
+        .sp1 {
+            width: 85%;
+        }
+        .sp1 img {
+            width: 155px;
+        }
+        /* SP Bán chạy2 */
+        .sp-banchay2 .hr-right2 {
+            height: 1px;
+            width: 100%;
+        }
+        .sp-banchay2 .hr-left2 {
+            height: 1px;
+            width: 100%;
+        }
+        .sp-banchay2 h1 {
+            font-family: 'Lalezar', cursive;
+            font-size: 15px;
+            margin-right: 20%;
+        }
+        /* Dich vu chung toi */
+        .dichvu-cuachungtoi {
+            display: grid;
+            grid-template-columns: 45% 45%;
+            column-gap: 10%;
+            margin-bottom: 40px;
+        }
+        .sp2 {
+            height: 390px;
+            width: 350px;
+        }
+        .sp2 img {
+            width: 330px;
+            height: 250px;
+        }
+        /* SP Bán chạy3 */
+        .sp-banchay3 .hr-right3 {
+            height: 1px;
+            width: 100%;
+        }
+        .sp-banchay3 .hr-left3 {
+            height: 1px;
+            width: 100%;
+        }
+        .sp-banchay3 h1 {
+            font-family: 'Lalezar', cursive;
+            font-size: 15px;
+            margin-right: 20%;
+        }
+        /* Tin tuc kien thuc */
+        .tintuc-kienthuc {
+            display: grid;
+            grid-template-columns: 100%;
+        }
+        .tintuc-kienthuc .anh-top {
+            display: grid;
+            grid-template-columns: 49% 49%;
+            column-gap: 1%;
+            width: 100%;
+        }
+        .tintuc-kienthuc .anh-top img {
+            width: 100%;
+            height: 250px;
+        }
+        .tintuc-kienthuc .anh-top p {
+            margin-top: -70px;
+            font-size: 20px;
+        }
+        .tintuc-kienthuc .anh-bottom {
+            display: grid;
+            grid-template-columns: 30% 30% 30%;
+            margin-top: -80px;
+        }
+        .tintuc-kienthuc .anh-bottom {
+            width: 100%;
+            height: 250px;
+        }
+        /* footer */
+        footer {
+            margin-top: -90px;
+            height: 850px;
+        }
+        .lien-he {
+            display: grid;
+            grid-template-columns: 48% 48%;
+            grid-template-rows: 50% 50%;
+            column-gap: 2%;
+            width: 100%;
+            margin-left: 50px;
+        }
+        .lien-he h2 {
+            margin-bottom: 10px;
+        }
+        .ve-chungtoi {
+            width: 80%;
+        }
+        .dichvu-giaidap {
+            width: 80%;
+        }
+        .thongtin-lienhe {
+            width: 80%;
+        }
+        .thongtin-lienhe p {
+            margin-top: -8px;
+        }
+        .mang-xh {
+            width: 80%;
+        }
+    }

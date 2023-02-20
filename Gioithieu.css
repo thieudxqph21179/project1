@@ -1,0 +1,614 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/* Header */
+
+header {
+    width: 100%;
+    background-color: black;
+    height: 90px;
+}
+
+.menu {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.menu-top {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.menu-top .logo {
+    padding: 20px 0px 0px 50px;
+}
+
+.ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.ul li {
+    padding: 20px 0px 0px 20px;
+}
+
+.ul li a {
+    padding-left: 30px;
+    font-family: 'Calistoga', cursive;
+    font-size: 13px;
+}
+
+.ul li a:hover {
+    color: red;
+}
+
+.ul li i {
+    color: white;
+    font-size: 20px;
+}
+
+.tuvan {
+    margin-left: 14px;
+    margin-top: -10px;
+}
+
+.dt {
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.gio {
+    margin-left: 21px;
+    margin-top: -10px;
+}
+
+.white {
+    color: white;
+}
+
+.red {
+    color: red;
+}
+
+form input {
+    margin-top: 25px;
+    margin-left: -40px;
+    height: 35px;
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: black;
+    padding-left: 10px;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+form i {
+    color: red;
+    margin-left: -30px;
+}
+
+
+/* Nav */
+
+nav {
+    width: 100%;
+    background-color: #FFD700;
+    height: 50px;
+}
+
+.nav {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.nav ul {
+    display: flex;
+    line-height: 50px;
+    padding-left: 25px;
+}
+
+.nav ul li {
+    padding: 0px 20px;
+}
+
+.nav ul li a {
+    color: black;
+    font-size: 17px;
+    font-family: 'Lalezar', cursive;
+}
+
+.nav ul li:hover {
+    border-bottom: 3px solid red;
+    z-index: 1;
+}
+
+.bar i {
+    font-size: 30px;
+    color: white;
+    display: none;
+    padding-top: 10px;
+}
+
+
+/* Menu-Responsive */
+
+.nav-responsive {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.842);
+    height: 610px;
+    z-index: 10;
+    transform: translateX(-100%);
+    transition: 0.6s;
+}
+
+.nav-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.nav-overlay {
+    display: none;
+}
+
+.nav-responsive ul li {
+    display: block;
+    padding: 40px 0px 0px 15px;
+}
+
+.nav-responsive ul {
+    margin-top: 40px;
+}
+
+.nav-responsive ul li:hover {
+    border-bottom: 3px solid coral;
+    background-color: rgba(255, 0, 0, 0.788);
+    padding: 20px 12px;
+}
+
+.nav-responsive ul li a {
+    color: white;
+    font-family: 'Francois One', sans-serif;
+}
+
+.nav-input:checked~.nav-overlay {
+    display: block;
+}
+
+.nav-input:checked~.nav-responsive {
+    transform: translateX(0%);
+    transition: 0.6s;
+}
+
+.nav-input {
+    display: none;
+}
+
+.times {
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    right: 10px;
+}
+
+.search {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+.search input {
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+}
+
+.search input::placeholder {
+    color: black;
+}
+
+.search button {
+    width: 40px;
+    height: 30px;
+    background-color: rgb(66, 199, 48);
+    position: absolute;
+    border: none;
+}
+
+.search button i {
+    color: rgb(160, 14, 14);
+    font-size: 20px;
+}
+
+
+/* Main */
+
+main {
+    width: 100%;
+    margin-top: 35px;
+}
+
+.content {
+    max-width: 1920px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 65% 30%;
+    column-gap: 5%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.left {
+    width: 100%;
+    margin-left: 40px;
+}
+
+.left p {
+    font-family: 'Kanit', sans-serif;
+}
+
+.left a {
+    font-size: 15px;
+    color: red;
+    font-family: 'Kanit', sans-serif;
+}
+
+.left h2 {
+    font-family: 'Calistoga', cursive;
+}
+
+.left h4 {
+    font-family: 'Calistoga', cursive;
+}
+
+.right {
+    width: 100%;
+}
+
+.right a {
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+    color: black;
+}
+
+.right img {
+    width: 85%;
+}
+
+.baiviet {
+    border: 1px solid gray;
+    margin-top: 30px;
+    width: 85%;
+}
+
+.baiviet img {
+    width: 70px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.baiviet button {
+    height: 50px;
+    width: 100%;
+    background-color: red;
+    font-size: 25px;
+    color: white;
+}
+
+.baiviet li {
+    display: flex;
+    height: 110px;
+    border-bottom: 1px solid gray;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.baiviet li a {
+    padding: 5px 0px 0px 8px;
+    font-size: 13px;
+}
+
+
+/* Footer */
+
+footer {
+    width: 100%;
+    background-color: #FFD700;
+    margin-top: 40px;
+}
+
+.lien-he {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    max-width: 1920px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.ve-chungtoi {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.ve-chungtoi h2 {
+    margin-top: 20px;
+    font-family: 'Calistoga', cursive;
+    font-size: 20px;
+}
+
+.ve-chungtoi .noidung {
+    margin-top: -60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.noidung a {
+    border-bottom: 1px solid gray;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.noidung a i {
+    margin-right: 20px;
+}
+
+.icon-footer i {
+    font-size: 35px;
+    margin-left: 5px;
+}
+
+.fb {
+    color: blue;
+}
+
+.phone {
+    color: green;
+}
+
+.youtube {
+    color: red;
+}
+
+.dichvu-giaidap {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.dichvu-giaidap h2 {
+    margin-top: 20px;
+    font-family: 'Calistoga', cursive;
+    font-size: 20px;
+}
+
+.dichvu-giaidap .noidung2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: -86px;
+}
+
+.noidung2 a {
+    border-bottom: 1px solid gray;
+    padding-top: 28px;
+    cursor: pointer;
+}
+
+.noidung2 a i {
+    margin-right: 20px;
+}
+
+.thongtin-lienhe {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.thongtin-lienhe h2 {
+    margin-top: 20px;
+    font-family: 'Calistoga', cursive;
+    font-size: 20px;
+}
+
+.thongtin-lienhe {
+    display: flex;
+    flex-direction: column;
+}
+
+.thongtin-lienhe p {
+    margin-top: 40px;
+}
+
+.mang-xh {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.mang-xh h2 {
+    margin-top: 20px;
+    font-family: 'Calistoga', cursive;
+    font-size: 20px;
+}
+
+.mang-xh {
+    display: flex;
+    flex-direction: column;
+}
+
+.mang-xh p {
+    margin-top: 23px;
+}
+
+.mang-xh a {
+    color: blue;
+}
+
+.mang-xh img {
+    width: 100%;
+}
+
+
+/* Moblie */
+
+@media screen and (max-width:768px) {
+    /* header */
+    .menu-top .ul {
+        display: none;
+    }
+    /* nav */
+    nav {
+        display: none;
+    }
+    form {
+        display: none;
+    }
+    .bar i {
+        position: absolute;
+        display: block;
+        top: 3%;
+        left: 2%;
+    }
+    /* Footer */
+    footer {
+        height: 1480px;
+    }
+    .lien-he {
+        display: grid;
+        grid-template-columns: 70%;
+    }
+    .ve-chungtoi {
+        width: 100%;
+        height: 400px;
+    }
+    .dichvu-giaidap {
+        width: 100%;
+        height: 400px;
+        margin-top: -50px;
+    }
+    .thongtin-lienhe {
+        width: 100%;
+        height: 400px;
+        margin-top: -50px;
+    }
+    .thongtin-lienhe p {
+        margin-top: 10px;
+    }
+    .mang-xh {
+        width: 100%;
+        height: 400px;
+        margin-top: -190px;
+    }
+    .mang-xh h2 {
+        margin-bottom: 30px;
+    }
+    /* Content */
+    .content {
+        display: grid;
+        grid-template-columns: 100%;
+        column-gap: 10%;
+    }
+    .content .left {
+        width: 90%;
+    }
+    .content .right {
+        width: 90%;
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+    .content .right .img-right {
+        width: 90%;
+    }
+    .baiviet {
+        width: 90%;
+    }
+    .baiviet li {
+        display: flex;
+        height: 80px;
+        border-bottom: 1px solid gray;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .baiviet li a {
+        font-size: 15px;
+    }
+}
+
+
+/* Tablet */
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    /* header */
+    .menu-top ul {
+        display: none;
+    }
+    .menu-top form {
+        text-align: center;
+    }
+    /* nav */
+    nav {
+        margin-bottom: 70px;
+        width: 100%;
+        background-color: #FFD700;
+        height: 120px;
+    }
+    .nav ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* Footer */
+    footer {
+        height: 850px;
+    }
+    .lien-he {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        grid-template-rows: 50% 50%;
+        column-gap: 2%;
+        width: 100%;
+        margin-left: 50px;
+    }
+    .lien-he h2 {
+        margin-bottom: 10px;
+    }
+    .ve-chungtoi {
+        width: 80%;
+    }
+    .dichvu-giaidap {
+        width: 80%;
+    }
+    .thongtin-lienhe {
+        width: 80%;
+    }
+    .thongtin-lienhe p {
+        margin-top: -8px;
+    }
+    .mang-xh {
+        width: 80%;
+    }
+    /* Content */
+    .content {
+        display: grid;
+        grid-template-columns: 60% 30%;
+        column-gap: 10%;
+    }
+    .baiviet button {
+        font-size: 20px;
+    }
+    .baiviet a {
+        font-size: 11px;
+    }
+}
